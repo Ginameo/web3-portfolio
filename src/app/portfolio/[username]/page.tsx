@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
-import { Github, Star, Code, ExternalLink } from 'lucide-react';
+import { Star, Code, ExternalLink } from 'lucide-react';
 
 export default function PortfolioPage() {
   const [data, setData] = useState<any>(null);
